@@ -1,5 +1,5 @@
 
-import {Enemies} from './Enemies'
+import {Starter} from './Starter'
 import './style.scss'
 
 (()=> {
@@ -8,8 +8,7 @@ import './style.scss'
     let myVersion:number = 1.02;
 
 
-  const html = new Enemies();
+  const html = new Starter();
 
-    console.log('executed and ready for use')
-
+ 
 })();
